@@ -1,32 +1,29 @@
 
-���䣺1264889788@qq.com
-��ַ��mgh_com
-����:123456qwer
 
 
 
-1. ����C��Ŀ¼����git�����նˣ�cd c://hellogit
-		2. git init jQueryDemo //����һ������jQueryDemo�ļ���
-		3. ����һ������ļ�������1.txt or nice.txt
-		4. git status �鿴git�ļ����ļ��ĸı�״̬
-		5. git add .�����е��������ļ������޸ĵ��ļ����ݷ��뱾�ػ�����������git���д����ģ�
-		6. git diff �鿴���޸��ļ��ı仯 
+1. 进入C盘目录，打开git命令终端，cd c://hellogit
+		2. git init jQueryDemo //建立一个叫做jQueryDemo文件夹
+		3. 创建一个随机文件，比如1.txt or nice.txt
+		4. git status 查看git文件夹文件的改变状态
+		5. git add .把所有的新添加文件或者修改的文件内容放入本地缓存区域（是由git进行创建的）
+		6. git diff 查看所修改文件的变化 
 		 git config --global user.email '751143842@qq.com'
 		 git config --global user.name 'gyfnice'
-		7.  git commit -m'�ύ��Ϣ������'  ȷ���ļ��ĸı�
-		8. git log �鿴�ύ����ʷ��¼
-		9. git revert ������Ӧ����ʷ��¼
-		10. git branch �г����еķ�֧
-		11. git checkout -b newbranch �л����½����ķ�֧
-		12. git checkout branch �л����Ѿ����ڷ�֧
+		7.  git commit -m'提交消息的内容'  确认文件的改变
+		8. git log 查看提交的历史记录
+		9. git revert 回退相应的历史记录
+		10. git branch 列出所有的分支
+		11. git checkout -b newbranch 切换到新建立的分支
+		12. git checkout branch 切换到已经存在分支
 
 		git status
 		git diff
 		git add .
 		git commit -m'message'
 		
-		git branch name  //�����µķ�֧
-		git checkout -b newbranch //�������һ���ύ�����ݽ�������,������֧���л�����֧
+		git branch name  //创建新的分支
+		git checkout -b newbranch //对你最后一次提交的内容进行拍照,创建分支并切换到分支
 
-		git merge name //�ϲ���֧name���ϲ��ķ�֧���֣��ϲ���ͬ���ͬ�Ĳ��ظ�
-		git branch -d name//����ڵ�ǰ��֧�Ļ���ɾ������ǰ�ķ�֧�ģ������л���������֧
+		git merge name //合并分支name被合并的分支名字，合并不同项，相同的不重复
+		git branch -d name//如果在当前分支的话是删不掉当前的分支的，必须切换到其他分支
