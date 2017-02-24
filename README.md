@@ -1,2 +1,2 @@
-# somethingfun
+# somethingfu
 some interesting demos
